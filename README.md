@@ -1,4 +1,4 @@
-# Car Configurator
+# Car Configurator - Brief descriptions for each script
 
 _Assets/Scripts/EventManager.cs_
 The EventManager class contains all events used throughout the project. Most of these are invoked the user interacting with the UI, to which both the stage and the UI then react.
