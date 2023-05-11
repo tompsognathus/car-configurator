@@ -112,7 +112,10 @@ public class StageManager : MonoBehaviour
     }
     /// <summary>
     /// Moves the previous available accessory in the car's accessory list from
-    /// the accessory pool to the car.
+    /// the accessory pool to the car. This should perhaps be removed and just left
+    /// to the car class. Initially the idea was to only have the StageManager and
+    /// UIManager communicating directly, but I've moved away from that after
+    /// adding events.
     /// </summary>
     public void ShowPreviousAccessory()
     {

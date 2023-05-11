@@ -9,12 +9,14 @@ public class EventManager : MonoBehaviour
     [SerializeField] UIManager uiManager;
 
     /// <summary>
-    /// 
+    /// Use this whenever something on stage changes that requires the UI to
+    /// update.
+    /// TODO Replace this with UI triggered events or just more specific events in general, e.g. OnPriceChangedEvent. There is nothing the stage does without some interaction from the user with the UI
     /// </summary>
     public event Action RequestUIUpdateEvent;
 
     /// <summary>
-    /// 
+    /// Use
     /// </summary>
     public event Action UICanvasChangedEvent;
 
@@ -29,8 +31,6 @@ public class EventManager : MonoBehaviour
     /// selector page
     /// </summary>
     public event Action<CarColorMaterial> CarColorSelectedEvent;
-
-    public event Action CarSelectedEvent;
 
     /// <summary>
     /// Called as the user cycles through accessories
@@ -88,12 +88,6 @@ public class EventManager : MonoBehaviour
     {
         // Debug.Log("OnCarColorSelected Invoked");
         StartCoroutine(InvokeDelayedEvent(CarColorSelectedEvent, carColor));
-    }
-
-    public void InvokeCarSelectedEvent(Car car)
-    {
-        // Debug.Log("OnCarSelected Invoked");
-        StartCoroutine(InvokeDelayedEvent(CarSelectedEvent));
     }
 
     public void InvokeAccessoryColorSelectedEvent(CarColorMaterial carColor)

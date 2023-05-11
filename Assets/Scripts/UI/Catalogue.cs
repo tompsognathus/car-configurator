@@ -67,7 +67,6 @@ public class Catalogue : MonoBehaviour
 
                     itemNames.text += "        " + accessory.AccessoryName + "\n";
                     itemPrices.text += uiManager.CurrencySymbol + accessory.Price.ToString("N0") + "\n";
-
                 }
             }
         }
