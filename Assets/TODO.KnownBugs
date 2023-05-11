@@ -1,0 +1,15 @@
+-- KNOWN BUGS:
+
+-- when an accessory color is selected, then if you return to to the car selector
+-- (thus resetting the stage) and continue forward to the accessory selector, 
+-- the toggle color doesn't reset to 'deselected' but stays on what the previous
+-- accessory color was.
+
+-- A similar issue happens when you go to the car color selector, choose the LAST
+-- color in the set, then return to the car selector (resetting the stage) and 
+-- finally go to the car color selector page again. The Last toggle will be 
+-- selected even though the color of the car has reset.
+
+-- When color selector canvases are activated, we can just about see toggles
+-- switching. Ideally this should happen in preparation of the canvas being activated
+-- to make it seamless
