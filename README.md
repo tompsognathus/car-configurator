@@ -13,12 +13,14 @@
 * _Assets/Scripts/NavDirection.cs_
   * Defines directions for ui navigation (next/prev)
 
+### _Assets/Scripts/Stage_
 * _Assets/Scripts/Stage/AccessoryPool.cs_<br />
   * Only used to tag the accessory pool object so that we can find it via code
 
 * _Assets/Scripts/Stage/StageManager.cs_<br />
   * The StageManager class is responsible for controlling what gets presented to the camera on stage. It can set up the next car that is going to be shown, and then rotate the stage to present it in front of the camera. The StageManager also controls accessory presentation via the currently selected car.
 
+### _Assets/Scripts/Stage/Car_
 * _Assets/Scripts/Stage/Car/Car.cs_<br />
   * The Car class is used to store the car's details, set its color, as well as accessory slots that can be populated with accessories from the accessory pool.
 
@@ -43,6 +45,7 @@
 * _Assets/Scripts/Stage/Car/Accessories/AccessorySlot.cs_<br />
   * Attached to a car gameobject, used to select or deselect accessories. Its transform determines how an accessory in the slot should be positioned relative to the car.
 
+### _Assets/Scripts/UI_
 * _Assets/Scripts/UI/Catalogue.cs_<br />
   * Controls visibility of the car catalogue and populates the car/accessory list at runtime based on the cars and accessories available in the scene
 
@@ -55,6 +58,7 @@
 * _Assets/Scripts/UI/UIManager.cs_<br />
   * Manages the UI and which canvas is being shown to the user
 
+### _Assets/Scripts/UI/CanvasTextManagers_
 * _Assets/Scripts/UI/CanvasTextManagers/AccessorySelectorCanvasManager.cs_<br />
   * Subclass of CanvasUpdateManager. Manages event subscriptions for the Accessory Selector Canvas
 
@@ -76,6 +80,7 @@
 * _Assets/Scripts/UI/CanvasTextManagers/AccessorySelectorCanvasManager.cs_<br />
   * Subclass of CanvasUpdateManager. Manages event subscriptions for the Review Order Selector Canvas. Also sets up text in a scrollable panel to print details about the selected car and accessories.
 
+### _Assets/Scripts/UI/ColorPanel_
 * _Assets/Scripts/UI/ColorPanel/AccessoryColorPanel.cs_<br />
   * A color panel containing a group of mutually exclusive toggles used to select a color for accessories or to deselect them
 
