@@ -1,7 +1,7 @@
 # Car Configurator - Brief Script Descriptions
 
 _Assets/Scripts/EventManager.cs_<br />
-The EventManager class contains all events used throughout the project. Most of these are invoked the user interacting with the UI, to which both the stage and the UI then react.
+-The EventManager class contains all events used throughout the project. Most of these are invoked the user interacting with the UI, to which both the stage and the UI then react.
 
 _Assets/Scripts/FaceCamera.cs_<br />
 Can be attached to an object to keep it facing the camera regardless of the objects position and rotation. Only used in experimental component selector buttons (see ComponentSelector.cs)
