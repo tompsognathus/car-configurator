@@ -36,10 +36,8 @@ Can be attached to a gameobject to slowly rotate it around the y-axis. Currently
 _Assets/Scripts/Stage/Car/Accessories/Accessory.cs_
 Used to store some information about each accessory such as price, and for setting colors
 
-_Assets/Scripts/Stage/Car/Accessories/Accessory_part_
+_Assets/Scripts/Stage/Car/Accessories/AccessoryPart_
 Stores the default color for each part of an accessory
-
-_Assets/Scripts/Stage/Car/Accessories/
 
 _Assets/Scripts/Stage/Car/Accessories/AccessorySlot.cs_
 Attached to a car gameobject, used to select or deselect accessories. Its transform determines how an accessory in the slot should be positioned relative to the car.
