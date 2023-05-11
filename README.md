@@ -12,7 +12,7 @@ Exits the game on ESC
 _Assets/Scripts/NavDirection.cs_
 Defines directions for ui navigation (next/prev)
 
-_Assets/Scripts/Stage/AccessoryPool.cs
+_Assets/Scripts/Stage/AccessoryPool.cs_
 Only used to tag the accessory pool object so that we can find it via code
 
 _Assets/Scripts/Stage/StageManager.cs_
