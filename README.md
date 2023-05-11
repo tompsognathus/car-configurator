@@ -7,10 +7,10 @@
 * _Assets/Scripts/FaceCamera.cs_
   * Can be attached to an object to keep it facing the camera regardless of the objects position and rotation. Only used in experimental component selector buttons (see ComponentSelector.cs)
 
-* _Assets/Scripts/GameManager.cs_<br />
+* _Assets/Scripts/GameManager.cs_
   * Exits the game on ESC
 
-_Assets/Scripts/NavDirection.cs_<br />
+_Assets/Scripts/NavDirection.cs_
 * Defines directions for ui navigation (next/prev)
 
 _Assets/Scripts/Stage/AccessoryPool.cs_<br />
